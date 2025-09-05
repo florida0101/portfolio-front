@@ -1,11 +1,14 @@
-import './App.css'
+import Navbar from "./components/layout/Navbar"
+import Home from "./components/views/Home"
 
 function App() {
-
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-red-500">    Hello world!  </h1>
+      <Navbar />
+      
+      <main>
+        <Home />
+      </main>
     </>
   )
 }
